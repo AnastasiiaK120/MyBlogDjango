@@ -24,3 +24,12 @@ class BlogTest(TestCase):
         self.assertEqual(resp.status_code, 200)
         self.assertEqual(no_resp.status_code, 404)
         self.assertTemplateUsed(resp, 'post_detail.html')
+
+    def test_post_create_view(self):
+        pass
+
+    def test_post_delete_view(self):
+        pass
+
+    def test_post_update_view(self):
+        pass
